@@ -25,7 +25,7 @@ def encryptRSA():
         n = p*q
         r = (p-1)*(q-1)
         while(lowerBound<1 or upperBound<1):
-            print('Pick positive integer range for encryption key')
+            print('Pick two positive integers range for your encryption key')
             lowerBound = int(input('Lower Bound: '))
             upperBound = int(input('Upper Bound: '))
         global eKey, dKey
