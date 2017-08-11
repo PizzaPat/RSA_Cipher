@@ -30,15 +30,39 @@
   - Pick positive integer range for encryption : Pick lower and upper bound for your private key 'e'. This will be the key to generate decryption key, by matching the candidate key 'e' key to 'd' key.
   - Result :
     - Encrypted Private Key will be the encryption key the user input. Decrypted Private Key will be the key the recipient have to input to decrypt the message. Public Key is obtainable for the public, it is insignificant to keep it secret.
+  - Example :
+
+    ![Encrypt](https://github.com/PizzaPat/RSA_Cipher/blob/master/screenshots/encryption.png)
+    
 - Decrypt
   - Enter Encrypted Message : Input the string of encrypted message. This should be a long string of number that the sender has sent to you.
   - Enter Decryption Key : Input the decryption key that is provided by sender. You may aquire this key in person to optimize your private communication
   - Enter Public Key : Input the public key that is given by the sender
+
+  - Example :
+  
+    ![Decrypt](https://github.com/PizzaPat/RSA_Cipher/blob/master/screenshots/decryption.png)
+
 - Generate Prime Numbers
   - Enter lower bound / Enter upper bound : Input the range between lower and upper bound to generate prime numbers to be used for prime p and prime q
+
+  - Example :
+  
+    ![Generate](https://github.com/PizzaPat/RSA_Cipher/blob/master/screenshots/generatePrime.png)
+
 - Check Prime Number
   - Enter Number : Input a number to check whether it is a prime number. The answer will be either True or False
+
+  - Example :
+  
+    ![CheckPrime](https://github.com/PizzaPat/RSA_Cipher/blob/master/screenshots/isPrime.png)
+
 - Notes
   - This will prompt the user for important information and any notes that the user should know about the program
+  
+  - Example :
+  
+    ![Notes](https://github.com/PizzaPat/RSA_Cipher/blob/master/screenshots/notes.png)  
+  
 - End Program
   - This will exit the program and go back to the command line
