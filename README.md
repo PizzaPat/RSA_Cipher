@@ -71,4 +71,4 @@ RSA Cipher was designed by Ron Rivest, Adi Shamir, and Leonard Adleman in 1978. 
   - This will exit the program and go back to the command line
   
 ### Tips:
-  - The encrypted/decrypted message will be copied on your clipboard with pyperclip library. You can CTR+C right away on document
+  - The encrypted/decrypted message will be copied on your clipboard with pyperclip library. You can CTR+V right away on any document or right click on terminal to paste the encrypted message
