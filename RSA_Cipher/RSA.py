@@ -40,7 +40,7 @@ def main():
                 print('Invalid Input')
         elif(choice == 4):
             try:
-                n = int(input('Enter number: '))
+                n = int(input('Enter a number: '))
                 print('Is ',n,' a prime number?')
                 print(check_prime(n))
             except:
