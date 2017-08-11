@@ -7,6 +7,9 @@
 [![Github All Releases](https://img.shields.io/github/downloads/PizzaPat/RSA_Cipher/total.svg)](https://github.com/PizzaPat/RSA_Cipher)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
+## About:
+RSA Cipher was designed by Ron Rivest, Adi Shamir, and Leonard Adleman in 1978. The algorithm was released to public on September 20, 1983. The algorithm involves with two prime numbers to generate a public key and private keys. The public key will be opened in public but the private keys will be held by the only receiver and sender of the message. RSA Cipher involves large modular exponential that generate a private keys based on user's input. 
+
 ## Requirements:
 [Python 3.6](https://www.python.org/downloads/release/python-361/)
 
@@ -66,3 +69,6 @@
   
 - End Program
   - This will exit the program and go back to the command line
+  
+### Tips:
+  - The encrypted/decrypted message will be copied on your clipboard with pyperclip library. You can CTR+C right away on document
