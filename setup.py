@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
 	name='RSA-Cipher',
 	packages=find_packages(),
-	version='1.0.2',
+	version='1.0.3',
 	description='Generate encrypted/decrypted text using RSA method',
 	author='Patrapee Pongtana',
 	author_email='patpongtana@gmail.com',

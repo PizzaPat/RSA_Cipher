@@ -55,7 +55,7 @@ def main():
                 ' receiver of the message use the same encryption/decryption keys to'
                 ' communicate. Make sure to have different encryption/decryption keys\n\n'
                 '--Important--\n'
-                '+The encryption/decryption only works for English alphabeth and white space.'
+                '+The encryption/decryption only works for English alphabet and white space.'
                 ' Any other character will break the program\n')
         elif(choice == 6):
             print()
