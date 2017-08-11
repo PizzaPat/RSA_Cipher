@@ -30,7 +30,7 @@ RSA Cipher was designed by Ron Rivest, Adi Shamir, and Leonard Adleman in 1978. 
 - Encrypt
   - Message : Input the message you wish to encrypt with RSA method. The message can only be English alphabeths A-Z and white space. Numbers and other symbols may not be input
   - Enter prime number p / Enter prime number q : Input prime number that will be used for encryption. Make sure to input correct prime numbers. The numbers can be generated in option 3. Generate Prime Numbers
-  - Pick positive integer range for encryption : Pick lower and upper bound for your private key 'e'. This will be the key to generate decryption key, by matching the candidate key 'e' key to 'd' key.
+  - Pick positive integers range for encryption : Pick lower and upper bound for your private key 'e'. This will be the key to generate decryption key, by matching the candidate key 'e' key to 'd' key.
   - Result :
     - Encrypted Private Key will be the encryption key the user input. Decrypted Private Key will be the key the recipient have to input to decrypt the message. Public Key is obtainable for the public, it is insignificant to keep it secret.
   - Example :
@@ -71,4 +71,4 @@ RSA Cipher was designed by Ron Rivest, Adi Shamir, and Leonard Adleman in 1978. 
   - This will exit the program and go back to the command line
   
 ### Tips:
-  - The encrypted/decrypted message will be copied on your clipboard with pyperclip library. You can CTR+C right away on document
+  - The encrypted/decrypted message will be copied on your clipboard with pyperclip library. You can CTR+V right away on any document or right click on terminal to paste the encrypted message
