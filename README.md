@@ -3,8 +3,6 @@
 ![menu](https://github.com/PizzaPat/RSA_Cipher/blob/master/screenshots/menu.png)
 
 [![PyPI](https://img.shields.io/pypi/v/RSA-Cipher.svg)](https://pypi.python.org/pypi/RSA-Cipher)
-[![PyPI](https://img.shields.io/pypi/dm/RSA-Cipher.svg)](https://pypi.python.org/pypi/RSA-Cipher)
-[![Github All Releases](https://img.shields.io/github/downloads/PizzaPat/RSA_Cipher/total.svg)](https://github.com/PizzaPat/RSA_Cipher)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 ## About:
